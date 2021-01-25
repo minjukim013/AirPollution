@@ -4,6 +4,18 @@ You can use the [editor on GitHub](https://github.com/minjukim013/AirPollution/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<script type="text/javascript">
+  <div class="PM10Line"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/cf47ca6b0721b2e1.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "PM10Line") return Inspector.into(".PM10Line")();
+});
+</script>
+
+</script>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
